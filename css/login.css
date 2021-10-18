@@ -1,0 +1,67 @@
+.text-center {
+    text-align: center; }
+  
+  /** Media Queries **/
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box; }
+  
+  *, *:before, *:after {
+    box-sizing: inherit; }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.6rem; }
+  
+  p {
+    color: #FFFFFF;
+    font-size: 2rem; }
+  
+  .contenedor {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; }
+  
+  a {
+    text-decoration: none; }
+  
+  img {
+    max-width: 100%; }
+    img {
+      border-style: none; }
+  
+  h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+    margin: 0 0 2.5rem 0;
+    font-weight: 900;
+    color: #0da6f3;
+    text-align: center; }
+  
+  h1 {
+    font-size: 4rem; }
+  
+  h2 {
+    font-size: 3.6rem; }
+  
+  h3 {
+    font-size: 3rem;
+    text-align: center; }
+  
+  body {
+    background-color: #ffffff; }
+  
+  @media (min-width: 768px) {
+    .contenedor-estetica {
+      height: 100vh;
+      display: grid;
+      gap: 2.5rem;
+      grid-template-columns: repeat(2, 1fr); } }
+  
+  .contenedor-estetica .imagen {
+    height: 30rem;
+    background-image: url(../Imagenes/3.jpg_large);
+    background-size: cover;
+    background-position: center center; }
+    @media (min-width: 768px) {
+      .contenedor-estetica .imagen {
+        height: auto; } }
